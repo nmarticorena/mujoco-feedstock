@@ -34,24 +34,45 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64</td>
+              <td>osx_64_mujoco_with_usdFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mujoco_with_usdFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64</td>
+              <td>osx_64_mujoco_with_usdTrue</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mujoco_with_usdTrue" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>osx_arm64_mujoco_with_usdFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mujoco_with_usdFalse" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_mujoco_with_usdTrue</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mujoco_with_usdTrue" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_mujoco_with_usdFalse</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mujoco_with_usdFalse" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_mujoco_with_usdTrue</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mujoco_with_usdTrue" alt="variant">
                 </a>
               </td>
             </tr>
@@ -70,10 +91,10 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-libmujoco-green.svg)](https://anaconda.org/conda-forge/libmujoco) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libmujoco.svg)](https://anaconda.org/conda-forge/libmujoco) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libmujoco.svg)](https://anaconda.org/conda-forge/libmujoco) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libmujoco.svg)](https://anaconda.org/conda-forge/libmujoco) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco-green.svg)](https://anaconda.org/conda-forge/mujoco) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco.svg)](https://anaconda.org/conda-forge/mujoco) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco.svg)](https://anaconda.org/conda-forge/mujoco) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco.svg)](https://anaconda.org/conda-forge/mujoco) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco--mjx-green.svg)](https://anaconda.org/conda-forge/mujoco-mjx) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco-mjx.svg)](https://anaconda.org/conda-forge/mujoco-mjx) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco-mjx.svg)](https://anaconda.org/conda-forge/mujoco-mjx) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco-mjx.svg)](https://anaconda.org/conda-forge/mujoco-mjx) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco--python-green.svg)](https://anaconda.org/conda-forge/mujoco-python) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco-python.svg)](https://anaconda.org/conda-forge/mujoco-python) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco-python.svg)](https://anaconda.org/conda-forge/mujoco-python) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco-python.svg)](https://anaconda.org/conda-forge/mujoco-python) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco--samples-green.svg)](https://anaconda.org/conda-forge/mujoco-samples) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco-samples.svg)](https://anaconda.org/conda-forge/mujoco-samples) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco-samples.svg)](https://anaconda.org/conda-forge/mujoco-samples) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco-samples.svg)](https://anaconda.org/conda-forge/mujoco-samples) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco--simulate-green.svg)](https://anaconda.org/conda-forge/mujoco-simulate) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco-simulate.svg)](https://anaconda.org/conda-forge/mujoco-simulate) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco-simulate.svg)](https://anaconda.org/conda-forge/mujoco-simulate) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco-simulate.svg)](https://anaconda.org/conda-forge/mujoco-simulate) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco--sysid-green.svg)](https://anaconda.org/conda-forge/mujoco-sysid) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco-sysid.svg)](https://anaconda.org/conda-forge/mujoco-sysid) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco-sysid.svg)](https://anaconda.org/conda-forge/mujoco-sysid) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco-sysid.svg)](https://anaconda.org/conda-forge/mujoco-sysid) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mujoco--usd-green.svg)](https://anaconda.org/conda-forge/mujoco-usd) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mujoco-usd.svg)](https://anaconda.org/conda-forge/mujoco-usd) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mujoco-usd.svg)](https://anaconda.org/conda-forge/mujoco-usd) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mujoco-usd.svg)](https://anaconda.org/conda-forge/mujoco-usd) |
 
 Installing libmujoco
 ====================
@@ -85,16 +106,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `libmujoco, mujoco, mujoco-mjx, mujoco-python, mujoco-samples, mujoco-simulate, mujoco-sysid` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `libmujoco, mujoco, mujoco-mjx, mujoco-samples, mujoco-simulate, mujoco-sysid, mujoco-usd` can be installed with `conda`:
 
 ```
-conda install libmujoco mujoco mujoco-mjx mujoco-python mujoco-samples mujoco-simulate mujoco-sysid
+conda install libmujoco mujoco mujoco-mjx mujoco-samples mujoco-simulate mujoco-sysid mujoco-usd
 ```
 
 or with `mamba`:
 
 ```
-mamba install libmujoco mujoco mujoco-mjx mujoco-python mujoco-samples mujoco-simulate mujoco-sysid
+mamba install libmujoco mujoco mujoco-mjx mujoco-samples mujoco-simulate mujoco-sysid mujoco-usd
 ```
 
 It is possible to list all of the versions of `libmujoco` available on your platform with `conda`:

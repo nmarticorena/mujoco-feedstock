@@ -21,27 +21,15 @@ cxx_compiler_version:
 libabseil:
 - '20260107'
 macos_machine:
-- x86_64-apple-darwin13.4.0
-numpy:
-- '2'
-pin_run_as_build:
-  python:
-    min_pin: x.x
-    max_pin: x.x
-pybind11_abi:
-- '11'
-python:
-- 3.10.* *_cpython
-- 3.11.* *_cpython
-- 3.12.* *_cpython
-- 3.13.* *_cp313
-- 3.14.* *_cp314
+- arm64-apple-darwin20.0.0
+mujoco_with_usd:
+- 'False'
 python_min:
 - '3.10'
 qhull:
 - '2020.2'
 target_platform:
-- osx-64
+- osx-arm64
 tinyxml2:
 - '11.0'
 zip_keys:
