@@ -19,7 +19,7 @@ docker_image:
 libabseil:
 - '20260107'
 mujoco_with_usd:
-- 'True'
+- false
 numpy:
 - '2'
 pin_run_as_build:

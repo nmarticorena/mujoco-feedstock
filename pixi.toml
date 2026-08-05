@@ -23,66 +23,66 @@ description = "List contents of all packages found in rattler-build build direct
 [tasks.build]
 cmd = "rattler-build build --recipe recipe"
 description = "Build mujoco-feedstock directly (without setup scripts), no particular variant specified"
-[tasks."build-linux_64_mujoco_with_usdFalse"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mujoco_with_usdFalse.yaml"
-description = "Build mujoco-feedstock with variant linux_64_mujoco_with_usdFalse directly (without setup scripts)"
-[tasks."inspect-linux_64_mujoco_with_usdFalse"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mujoco_with_usdFalse.yaml"
-description = "List contents of mujoco-feedstock packages built for variant linux_64_mujoco_with_usdFalse"
-[tasks."build-linux_64_mujoco_with_usdTrue"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mujoco_with_usdTrue.yaml"
-description = "Build mujoco-feedstock with variant linux_64_mujoco_with_usdTrue directly (without setup scripts)"
-[tasks."inspect-linux_64_mujoco_with_usdTrue"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mujoco_with_usdTrue.yaml"
-description = "List contents of mujoco-feedstock packages built for variant linux_64_mujoco_with_usdTrue"
-[tasks."build-linux_aarch64_mujoco_with_usdFalse"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mujoco_with_usdFalse.yaml"
-description = "Build mujoco-feedstock with variant linux_aarch64_mujoco_with_usdFalse directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mujoco_with_usdFalse"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mujoco_with_usdFalse.yaml"
-description = "List contents of mujoco-feedstock packages built for variant linux_aarch64_mujoco_with_usdFalse"
-[tasks."build-linux_aarch64_mujoco_with_usdTrue"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mujoco_with_usdTrue.yaml"
-description = "Build mujoco-feedstock with variant linux_aarch64_mujoco_with_usdTrue directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mujoco_with_usdTrue"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mujoco_with_usdTrue.yaml"
-description = "List contents of mujoco-feedstock packages built for variant linux_aarch64_mujoco_with_usdTrue"
-[tasks."build-osx_64_mujoco_with_usdFalse"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mujoco_with_usdFalse.yaml"
-description = "Build mujoco-feedstock with variant osx_64_mujoco_with_usdFalse directly (without setup scripts)"
-[tasks."inspect-osx_64_mujoco_with_usdFalse"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mujoco_with_usdFalse.yaml"
-description = "List contents of mujoco-feedstock packages built for variant osx_64_mujoco_with_usdFalse"
-[tasks."build-osx_64_mujoco_with_usdTrue"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mujoco_with_usdTrue.yaml"
-description = "Build mujoco-feedstock with variant osx_64_mujoco_with_usdTrue directly (without setup scripts)"
-[tasks."inspect-osx_64_mujoco_with_usdTrue"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mujoco_with_usdTrue.yaml"
-description = "List contents of mujoco-feedstock packages built for variant osx_64_mujoco_with_usdTrue"
-[tasks."build-osx_arm64_mujoco_with_usdFalse"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mujoco_with_usdFalse.yaml"
-description = "Build mujoco-feedstock with variant osx_arm64_mujoco_with_usdFalse directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mujoco_with_usdFalse"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mujoco_with_usdFalse.yaml"
-description = "List contents of mujoco-feedstock packages built for variant osx_arm64_mujoco_with_usdFalse"
-[tasks."build-osx_arm64_mujoco_with_usdTrue"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mujoco_with_usdTrue.yaml"
-description = "Build mujoco-feedstock with variant osx_arm64_mujoco_with_usdTrue directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mujoco_with_usdTrue"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mujoco_with_usdTrue.yaml"
-description = "List contents of mujoco-feedstock packages built for variant osx_arm64_mujoco_with_usdTrue"
-[tasks."build-win_64_mujoco_with_usdFalse"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mujoco_with_usdFalse.yaml"
-description = "Build mujoco-feedstock with variant win_64_mujoco_with_usdFalse directly (without setup scripts)"
-[tasks."inspect-win_64_mujoco_with_usdFalse"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mujoco_with_usdFalse.yaml"
-description = "List contents of mujoco-feedstock packages built for variant win_64_mujoco_with_usdFalse"
-[tasks."build-win_64_mujoco_with_usdTrue"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mujoco_with_usdTrue.yaml"
-description = "Build mujoco-feedstock with variant win_64_mujoco_with_usdTrue directly (without setup scripts)"
-[tasks."inspect-win_64_mujoco_with_usdTrue"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mujoco_with_usdTrue.yaml"
-description = "List contents of mujoco-feedstock packages built for variant win_64_mujoco_with_usdTrue"
+[tasks."build-linux_64_mujoco_with_usdfalse"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mujoco_with_usdfalse.yaml"
+description = "Build mujoco-feedstock with variant linux_64_mujoco_with_usdfalse directly (without setup scripts)"
+[tasks."inspect-linux_64_mujoco_with_usdfalse"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mujoco_with_usdfalse.yaml"
+description = "List contents of mujoco-feedstock packages built for variant linux_64_mujoco_with_usdfalse"
+[tasks."build-linux_64_mujoco_with_usdtrue"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mujoco_with_usdtrue.yaml"
+description = "Build mujoco-feedstock with variant linux_64_mujoco_with_usdtrue directly (without setup scripts)"
+[tasks."inspect-linux_64_mujoco_with_usdtrue"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mujoco_with_usdtrue.yaml"
+description = "List contents of mujoco-feedstock packages built for variant linux_64_mujoco_with_usdtrue"
+[tasks."build-linux_aarch64_mujoco_with_usdfalse"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mujoco_with_usdfalse.yaml"
+description = "Build mujoco-feedstock with variant linux_aarch64_mujoco_with_usdfalse directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_mujoco_with_usdfalse"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mujoco_with_usdfalse.yaml"
+description = "List contents of mujoco-feedstock packages built for variant linux_aarch64_mujoco_with_usdfalse"
+[tasks."build-linux_aarch64_mujoco_with_usdtrue"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mujoco_with_usdtrue.yaml"
+description = "Build mujoco-feedstock with variant linux_aarch64_mujoco_with_usdtrue directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_mujoco_with_usdtrue"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mujoco_with_usdtrue.yaml"
+description = "List contents of mujoco-feedstock packages built for variant linux_aarch64_mujoco_with_usdtrue"
+[tasks."build-osx_64_mujoco_with_usdfalse"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mujoco_with_usdfalse.yaml"
+description = "Build mujoco-feedstock with variant osx_64_mujoco_with_usdfalse directly (without setup scripts)"
+[tasks."inspect-osx_64_mujoco_with_usdfalse"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mujoco_with_usdfalse.yaml"
+description = "List contents of mujoco-feedstock packages built for variant osx_64_mujoco_with_usdfalse"
+[tasks."build-osx_64_mujoco_with_usdtrue"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mujoco_with_usdtrue.yaml"
+description = "Build mujoco-feedstock with variant osx_64_mujoco_with_usdtrue directly (without setup scripts)"
+[tasks."inspect-osx_64_mujoco_with_usdtrue"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mujoco_with_usdtrue.yaml"
+description = "List contents of mujoco-feedstock packages built for variant osx_64_mujoco_with_usdtrue"
+[tasks."build-osx_arm64_mujoco_with_usdfalse"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mujoco_with_usdfalse.yaml"
+description = "Build mujoco-feedstock with variant osx_arm64_mujoco_with_usdfalse directly (without setup scripts)"
+[tasks."inspect-osx_arm64_mujoco_with_usdfalse"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mujoco_with_usdfalse.yaml"
+description = "List contents of mujoco-feedstock packages built for variant osx_arm64_mujoco_with_usdfalse"
+[tasks."build-osx_arm64_mujoco_with_usdtrue"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mujoco_with_usdtrue.yaml"
+description = "Build mujoco-feedstock with variant osx_arm64_mujoco_with_usdtrue directly (without setup scripts)"
+[tasks."inspect-osx_arm64_mujoco_with_usdtrue"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mujoco_with_usdtrue.yaml"
+description = "List contents of mujoco-feedstock packages built for variant osx_arm64_mujoco_with_usdtrue"
+[tasks."build-win_64_mujoco_with_usdfalse"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mujoco_with_usdfalse.yaml"
+description = "Build mujoco-feedstock with variant win_64_mujoco_with_usdfalse directly (without setup scripts)"
+[tasks."inspect-win_64_mujoco_with_usdfalse"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mujoco_with_usdfalse.yaml"
+description = "List contents of mujoco-feedstock packages built for variant win_64_mujoco_with_usdfalse"
+[tasks."build-win_64_mujoco_with_usdtrue"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mujoco_with_usdtrue.yaml"
+description = "Build mujoco-feedstock with variant win_64_mujoco_with_usdtrue directly (without setup scripts)"
+[tasks."inspect-win_64_mujoco_with_usdtrue"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mujoco_with_usdtrue.yaml"
+description = "List contents of mujoco-feedstock packages built for variant win_64_mujoco_with_usdtrue"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
