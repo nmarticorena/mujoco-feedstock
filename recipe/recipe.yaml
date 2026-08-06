@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json
 context:
   version: "3.10.0"
+  build_number: 1
 
 recipe:
   name: mujoco-split
@@ -27,7 +28,7 @@ source:
       - patches/0018-find-openusd.patch
 
 build:
-  number: ${{ 1 if mujoco_with_usd else 2 }}
+  number: ${{ build_number*2 - mujoco_with_usd}}
 
 outputs:
   - package:
