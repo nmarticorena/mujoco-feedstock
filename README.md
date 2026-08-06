@@ -61,20 +61,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mujoco_with_usdtrue" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_64_mujoco_with_usdfalse</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mujoco_with_usdfalse" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_mujoco_with_usdtrue</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mujoco-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mujoco_with_usdtrue" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
@@ -107,31 +93,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `libmujoco, mujoco, mujoco-mjx, mujoco-python, mujoco-samples, mujoco-simulate, mujoco-sysid, mujoco-usd` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install libmujoco mujoco mujoco-mjx mujoco-python mujoco-samples mujoco-simulate mujoco-sysid mujoco-usd
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install libmujoco mujoco mujoco-mjx mujoco-python mujoco-samples mujoco-simulate mujoco-sysid mujoco-usd
 ```
 
-It is possible to list all of the versions of `libmujoco` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add libmujoco mujoco mujoco-mjx mujoco-python mujoco-samples mujoco-simulate mujoco-sysid mujoco-usd
+# for installing globally
+pixi global install libmujoco mujoco mujoco-mjx mujoco-python mujoco-samples mujoco-simulate mujoco-sysid mujoco-usd
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `libmujoco` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search libmujoco --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search libmujoco --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search libmujoco --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -143,6 +171,8 @@ mamba repoquery whoneeds libmujoco --channel conda-forge
 # List dependencies of `libmujoco`:
 mamba repoquery depends libmujoco --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
